@@ -1,0 +1,8 @@
+.homeContent {
+  text-align: right;
+  /* font-size: 4rem; */
+}
+
+.homeContent > h1 {
+  font-size: 2rem;
+}
