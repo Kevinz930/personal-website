@@ -1,0 +1,21 @@
+.about {
+  height: 100vh;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+
+.about h1 {
+  font-size: 3rem;
+  font-weight: 300;
+  text-align: left;
+}
+
+.about p {
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: 200;
+}

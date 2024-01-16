@@ -1,0 +1,36 @@
+.nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  gap: 1.25rem;
+  color: white;
+  padding: 4%;
+  /* border: 1px solid red; */
+}
+
+.nav-item {
+  font-size: 40px;
+  font-weight: 200;
+  opacity: 0.5;
+  transition: all .3s ease-in-out;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-item.active {
+  font-size: 60px;
+  opacity: 1;
+}
+
+.nav-item:hover {
+  cursor: default;
+}
+
+.nav-item:hover:not(.active) {
+  opacity: .75;
+}

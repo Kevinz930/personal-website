@@ -1,8 +1,19 @@
-.homeContent {
-  text-align: right;
-  /* font-size: 4rem; */
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 8px;
 }
 
-.homeContent > h1 {
-  font-size: 2rem;
+.home h1 {
+  font-size: 8vmax;
+  font-weight: 200;
+  letter-spacing: 8px;
+}
+
+.home h2 {
+  font-size: 2.5vmax;
+  font-weight: 300;
+  letter-spacing: 4px;
 }
